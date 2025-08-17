@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "plasmic sync --yes",
     "build": "next build",
     "start": "next start",
     "plasmic:auth": "plasmic auth",
@@ -13,12 +14,15 @@
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "@plasmicapp/host": "^1.0.0"
   },
   "devDependencies": {
     "@plasmicapp/cli": "^0.1.342",
-    "@plasmicapp/host": "1.0.290",
     "@netlify/plugin-nextjs": "5.8.1",
     "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
