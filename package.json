@@ -10,18 +10,18 @@
     "plasmic:auth": "plasmic auth",
     "plasmic:init": "plasmic init",
     "plasmic:sync": "plasmic sync --yes"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "@plasmicapp/host": "^1.0.0"
-  },
-  "devDependencies": {
-    "@plasmicapp/cli": "^0.1.342",
-    "@netlify/plugin-nextjs": "5.8.1",
-    "typescript": "^5.5.4"
-  },
+  },"dependencies": {
+  "next": "14.2.5",
+  "react": "18.3.1",
+  "react-dom": "18.3.1",
+  "@plasmicapp/host": "^1.0.0",
+  "@plasmicapp/react-web": "^1.0.0"
+},
+"devDependencies": {
+  "@plasmicapp/cli": "^0.1.342",
+  "@netlify/plugin-nextjs": "5.12.0",
+  "typescript": "^5.5.4"
+},
   "engines": {
     "node": ">=18"
   }
