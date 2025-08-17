@@ -8,8 +8,10 @@ export default function Contact() {
       <Head><title>Contact • Futuro.ngo</title></Head>
       <BaseHeader />
       <main className="container">
-        <h1 style={fontSize:36}>Contact</h1>
-        <p style={maxWidth:720, opacity:.8}>This is a placeholder route. You can create and sync a Contact page in Plasmic to replace it.</p>
+        <h1 style={{ fontSize: 36 }}>Contact</h1>
+        <p style={{ maxWidth: 720, opacity: 0.8 }}>
+          This is a placeholder route. You can create and sync a Contact page in Plasmic to replace it.
+        </p>
       </main>
     </>
   );
