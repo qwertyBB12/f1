@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import BaseHeader from '../components/BaseHeader';
-import '../styles/globals.css';
 
 export default function Contact() {
   return (
