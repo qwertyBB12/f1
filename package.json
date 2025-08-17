@@ -1,0 +1,24 @@
+{
+  "name": "futuro-plasmic-next",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "plasmic:auth": "plasmic auth",
+    "plasmic:init": "plasmic init",
+    "plasmic:sync": "plasmic sync --yes"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@plasmicapp/cli": "1.0.285",
+    "@plasmicapp/host": "1.0.290",
+    "@netlify/plugin-nextjs": "5.8.1",
+    "typescript": "^5.5.4"
+  }
+}
